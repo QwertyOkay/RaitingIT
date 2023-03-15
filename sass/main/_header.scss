@@ -50,8 +50,11 @@
 
 .header__flex {
   height: 500px !important;
-  background: bisque !important;
+  background-image: url(../images/header.jpg);
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
