@@ -1558,7 +1558,35 @@ body {
   }
 }
 .mark-color {
-  color: #f9da49;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  /* Main / Grey Dark */
+
+  color: #2d445c;
+}
+
+.depTitle {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  /* Text / Grey 1 */
+
+  color: #8395a8;
+
+  opacity: 0.5;
 }
 .main__box {
   border-radius: 0 0 15% 15%;
@@ -1677,7 +1705,7 @@ body {
   height: 490px;
   margin-bottom: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   -webkit-box-shadow: 0px 0px 10px 3px #f9f9f9;
   box-shadow: 0px 0px 10px 3px #f9f9f9;
@@ -1961,8 +1989,8 @@ body {
   justify-content: center;
   border-radius: 50px;
   width: -webkit-fill-available;
-  margin-top: 12px;
 }
+
 @media screen and (min-width: 768px) {
   .grade__content {
     border-radius: 50px;
@@ -2272,4 +2300,30 @@ body {
   position: absolute;
   left: calc(50% - 60px / 2 + 0.5px);
   top: -6%;
+}
+
+.widthTape {
+  width: 355px;
+}
+
+.payments {
+  width: 60px;
+  height: 10px;
+}
+
+.paymentsApple {
+  width: 25px;
+  height: 10px;
+}
+
+.paymentsM {
+  width: 77px;
+  height: 10px;
+}
+
+.grade__payments {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 220px;
 }
