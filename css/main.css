@@ -1793,7 +1793,7 @@ body {
   background: #f2f6ff;
   border-radius: 25px;
   max-width: 1199px;
-  height: 490px;
+  height: 480px;
   margin-bottom: 50px;
   display: flex;
   justify-content: space-around;
@@ -2416,6 +2416,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   width: 220px;
+  margin-top: -40px;
 }
 
 .header__title {
