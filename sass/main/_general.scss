@@ -1880,11 +1880,11 @@ body {
   align-items: center;
   list-style: none;
 }
-// .logo__starsRating {
-//   width: 30px;
-//   height: 30px;
-//   margin-left: -11px;
-// }
+
+.grade__stars li {
+  margin-bottom: 15px;
+}
+
 .grade__img-number {
   display: flex;
 }
@@ -1987,8 +1987,22 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  border-radius: 50px;
   width: -webkit-fill-available;
+  margin-top: 20px;
+}
+
+.grade__content li {
+  margin-bottom: 5px;
+}
+
+.grade__content2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: -webkit-fill-available;
+  margin-top: 0px;
 }
 
 @media screen and (min-width: 768px) {
