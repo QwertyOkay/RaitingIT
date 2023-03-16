@@ -1847,6 +1847,25 @@ body {
     height: 170px;
   }
 }
+.grade__box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  background-size: 50% 100%;
+  border-radius: inherit;
+}
+
+.grade__box::after {
+  position: absolute;
+  content: "";
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #9dbcdd 25.03%, rgba(241, 249, 255, 0) 91.84%);
+}
+
 .grade {
   background-repeat: repeat;
   background-size: cover;
