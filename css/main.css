@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: "Poppins", sans-serif;
 }
 
 hr {
@@ -34,7 +34,6 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   font-size: 1em;
 }
 
@@ -233,18 +232,27 @@ body {
   background-color: #78be20;
   box-shadow: inset 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
   font-size: 20px;
-  font-family: Fredoka One;
   color: #fff;
-  text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
-  text-shadow: 0px 3px 0.99px rgba(0, 0, 0, 0.49);
   transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
   width: 166px;
   height: 60px;
   border-color: #6d8c18;
   border-radius: 20px;
   box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5), 0 -0.25rem 1.5rem #325d30 inset, 0 0.75rem 0.5rem rgba(114, 133, 114, 0.4) inset, 0 0.25rem 0.5rem 0 #53f35b inset;
+  padding: 16px 28px;
+  gap: 4px;
+  /* position: absolute; */
+  width: 280px;
+  height: 56px;
+  /* left: 23px; */
+  /* top: 244px; */
+  background: linear-gradient(180deg, #00bf5c 0%, #009146 100%);
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 @media screen and (min-width: 768px) {
@@ -255,7 +263,6 @@ body {
     background-color: #78be20;
     box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
     font-size: 26.285px;
-    font-family: Fredoka One;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
@@ -278,7 +285,6 @@ body {
     background-color: #78be20;
     box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
     font-size: 26.285px;
-    font-family: Fredoka One;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
@@ -301,7 +307,6 @@ body {
     background-color: #78be20;
     box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
     font-size: 26.285px;
-    font-family: Fredoka One;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
@@ -1461,7 +1466,6 @@ body {
 .header {
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 887px;
   max-width: 100vw;
 }
 
@@ -1499,7 +1503,6 @@ body {
 .main {
   display: flex;
   align-items: center;
-  height: 530px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1622,7 +1625,6 @@ body {
 }
 .title__main {
   font-size: 16px;
-  font-family: Fredoka One;
   color: #fff;
   text-transform: uppercase;
   line-height: 1.2;
@@ -1632,7 +1634,6 @@ body {
 @media screen and (min-width: 768px) {
   .title__main {
     font-size: 22px;
-    font-family: Fredoka One;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
@@ -1642,7 +1643,6 @@ body {
 @media screen and (min-width: 1200px) {
   .title__main {
     font-size: 22px;
-    font-family: Fredoka One;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
@@ -1654,7 +1654,6 @@ body {
 }
 
 .main__box {
-  background-color: #804cb9;
   border-radius: 0 0 15% 15%;
   border: 4px solid #d8b367;
   border-style: solid;
@@ -1668,7 +1667,6 @@ body {
 
 @media screen and (min-width: 768px) {
   .main__box {
-    background-color: #804cb9;
     border-radius: 0 0 15% 15%;
     border: 4px solid #d8b367;
     border-style: solid;
@@ -1682,7 +1680,6 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .main__box {
-    background-color: #804cb9;
     border-radius: 0 0 15% 15%;
     border: 4px solid #d8b367;
     border-style: solid;
@@ -1774,23 +1771,24 @@ body {
 }
 .grade__box {
   border: 2px solid #fff;
-  background: #c4c4c4;
+  background: #f2f6ff;
   border-radius: 25px;
   max-width: 1199px;
-  height: 285px;
+  height: 490px;
   margin-bottom: 50px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   -webkit-box-shadow: 0px 0px 10px 3px #f9f9f9;
   box-shadow: 0px 0px 10px 3px #f9f9f9;
   align-items: center;
-  width: 265px;
+  width: 335px;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
   .grade__box {
     border: 2px solid #fff;
-    background-color: #804cb9;
     border-radius: 50px;
     max-width: 1199px;
     height: 205px;
@@ -1805,7 +1803,6 @@ body {
 @media screen and (min-width: 768px) {
   .grade__box {
     border: 2px solid #fff;
-    background-color: #804cb9;
     border-radius: 50px;
     max-width: 1199px;
     height: 205px;
@@ -1832,7 +1829,6 @@ body {
   }
 }
 .grade {
-  margin-top: -900px;
   background-repeat: repeat;
   background-size: cover;
   background-size: 100% 100%;
@@ -1953,12 +1949,6 @@ body {
   list-style: none;
 }
 
-.logo__starsRating {
-  width: 30px;
-  height: 30px;
-  margin-left: -11px;
-}
-
 .grade__img-number {
   display: flex;
 }
@@ -1967,7 +1957,6 @@ body {
   .grade__text {
     padding: 0 10px;
     font-size: 16px;
-    font-family: Fredoka One;
     color: #804cb9;
     text-transform: uppercase;
     line-height: 1.2;
@@ -1978,7 +1967,6 @@ body {
 @media screen and (min-width: 768px) {
   .grade__text {
     font-size: 23px;
-    font-family: Fredoka One;
     color: #804cb9;
     text-transform: uppercase;
     line-height: 1.2;
@@ -1989,7 +1977,6 @@ body {
 @media screen and (min-width: 1200px) {
   .grade__text {
     font-size: 26px;
-    font-family: Fredoka One;
     color: #804cb9;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2000,7 +1987,6 @@ body {
 @media screen and (min-width: 1900px) {
   .grade__text {
     font-size: 32px;
-    font-family: Fredoka One;
     color: #804cb9;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2011,7 +1997,6 @@ body {
 @media screen and (min-width: 320px) {
   .grade__number {
     font-size: 19px;
-    font-family: Fredoka One;
     color: #804cb9;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2023,7 +2008,6 @@ body {
 @media screen and (min-width: 768px) {
   .grade__number {
     font-size: 23px;
-    font-family: Fredoka One;
     color: #804cb9;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2035,7 +2019,6 @@ body {
 @media screen and (min-width: 1200px) {
   .grade__number {
     font-size: 27px;
-    font-family: Fredoka One;
     color: #804cb9;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2047,7 +2030,6 @@ body {
 @media screen and (min-width: 1900px) {
   .grade__number {
     font-size: 32px;
-    font-family: Fredoka One;
     color: #804cb9;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2070,7 +2052,6 @@ body {
 @media screen and (min-width: 768px) {
   .grade__content {
     border-radius: 50px;
-    background-color: #804cb9;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2080,7 +2061,6 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .grade__content {
-    background-color: #804cb9;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2090,7 +2070,6 @@ body {
 }
 .title__main-margin {
   font-size: 16px;
-  font-family: Fredoka One;
   color: #fff;
   text-transform: uppercase;
   line-height: 1.2;
@@ -2100,7 +2079,6 @@ body {
 
 @media screen and (min-width: 768px) {
   .title__main-margin {
-    font-family: Fredoka One;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2112,7 +2090,6 @@ body {
 @media screen and (min-width: 1200px) {
   .title__main-margin {
     font-size: 22px;
-    font-family: Fredoka One;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2189,7 +2166,6 @@ body {
 
 .footer__texts {
   font-size: 12px;
-  font-family: Fredoka One;
   color: #fff;
   text-transform: uppercase;
   line-height: 1.2;
@@ -2199,7 +2175,6 @@ body {
 @media screen and (min-width: 768px) {
   .footer__texts {
     font-size: 14px;
-    font-family: Fredoka One;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2210,7 +2185,6 @@ body {
 @media screen and (min-width: 1200px) {
   .footer__texts {
     font-size: 14px;
-    font-family: Fredoka One;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2220,7 +2194,6 @@ body {
 @media screen and (min-width: 1900px) {
   .footer__texts {
     font-size: 14px;
-    font-family: Fredoka One;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
@@ -2233,7 +2206,6 @@ body {
   text-decoration: underline;
   text-decoration-color: #f9da49;
   text-underline-position: unset;
-  font-family: Fredoka One;
   color: #fff;
   text-transform: uppercase;
   line-height: 1.2;
@@ -2255,7 +2227,6 @@ body {
 
 .footer__thumb--mail {
   font-size: 14px;
-  font-family: Fredoka One;
   color: #fff;
   text-transform: uppercase;
   line-height: 1.2;
@@ -2268,7 +2239,6 @@ body {
   text-decoration-color: #f9da49;
   text-underline-position: unset;
   text-transform: uppercase;
-  font-family: Fredoka One;
   color: #fff;
   line-height: 1.2;
   text-align: center;
@@ -2372,6 +2342,12 @@ body {
   }
 }
 
+.crown {
+  position: absolute;
+  left: calc(50% - 30px + 0.5px);
+  top: -6%;
+}
+
 .header__title {
   z-index: 9;
   font-size: 24px;
@@ -2408,7 +2384,7 @@ body {
   }
 }
 .header__flex {
-  height: 500px !important;
+  height: 390px !important;
   background-image: url(../images/header.jpg);
   display: flex !important;
   justify-content: center !important;
