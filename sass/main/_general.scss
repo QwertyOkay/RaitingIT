@@ -1705,7 +1705,7 @@ body {
   height: 490px;
   margin-bottom: 50px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: column;
   -webkit-box-shadow: 0px 0px 10px 3px #f9f9f9;
   box-shadow: 0px 0px 10px 3px #f9f9f9;
@@ -2314,6 +2314,14 @@ body {
   position: absolute;
   left: calc(50% - 60px / 2 + 0.5px);
   top: -6%;
+}
+
+.flag {
+  position: absolute;
+  width: 91.57px;
+  height: 81.82px;
+  left: 254px;
+  top: -13px;
 }
 
 .widthTape {
