@@ -1362,7 +1362,7 @@ body {
   overflow: hidden;
 }
 .header {
-  background-image: url(../images/Header.png);
+  // background-image: url(../images/Header.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: 887px;
@@ -1402,7 +1402,7 @@ body {
 .main {
   display: flex;
   align-items: center;
-  background: #270a3a;
+  // background: #270a3a;
   height: 530px;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -1663,8 +1663,8 @@ body {
 }
 .grade__box {
   border: 2px solid #fff;
-  background-color: #804cb9;
-  border-radius: 50px;
+  background: #c4c4c4;
+  border-radius: 25px;
   max-width: 1199px;
   height: 285px;
   margin-bottom: 50px;
@@ -1724,7 +1724,7 @@ body {
   background-repeat: repeat;
   background-size: cover;
   background-size: 100% 100%;
-  background-image: url(../images/Back-mb.png);
+  // background-image: url(../images/Back-mb.png);
   background-position: center center;
   display: flex;
   align-items: center;
@@ -1736,7 +1736,7 @@ body {
     background-repeat: repeat;
     background-size: cover;
     background-size: 100% 100%;
-    background-image: url(../images/Back2.png);
+    // background-image: url(../images/Back2.png);
     background-position: center center;
   }
 }
@@ -1746,7 +1746,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
-    background-image: url(../images/Back2.png);
+    // background-image: url(../images/Back2.png);
   }
 }
 @media screen and (min-width: 1600px) {
@@ -1755,7 +1755,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
-    background-image: url(../images/Back2.png);
+    // background-image: url(../images/Back2.png);
     background-position: center center;
   }
 }
@@ -1763,7 +1763,7 @@ body {
   width: 100%;
 }
 .grade__box-1 {
-  background-color: #fff;
+  // background-color: #fff;
   border-radius: 44px 44px 0 0;
   width: 100%;
   height: 70px;
@@ -1801,7 +1801,7 @@ body {
   width: 100%;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  // background-color: #fff;
 }
 @media screen and (min-width: 768px) {
   .grade__stars-box {
@@ -1944,7 +1944,7 @@ body {
   }
 }
 .grade__content {
-  background-color: #804cb9;
+  // background-color: #804cb9;
   display: flex;
   flex-direction: row;
   align-items: center;
