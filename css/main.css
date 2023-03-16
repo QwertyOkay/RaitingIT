@@ -184,14 +184,7 @@ a {
 
 body {
   font-family: Fredoka One, sans-serif;
-  color: #270a3a;
-  background-color: #fff;
-}
-
-body {
-  font-family: Fredoka One, sans-serif;
   color: #fff;
-  background-color: #270a3a;
 }
 
 .container {
@@ -2390,7 +2383,6 @@ body {
 
 .header__title {
   z-index: 9;
-  margin-top: 20px;
   font-size: 24px;
   font-family: "Fredoka One";
   font-weight: 600;
@@ -2409,7 +2401,6 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .header__title {
-    margin-top: 45px;
     font-size: 42px;
     font-family: "Fredoka One";
     font-weight: 600;
@@ -2423,6 +2414,15 @@ body {
 @media screen and (min-width: 1600px) {
   .header__title {
     font-size: 42px;
-    margin-top: 73px;
   }
+}
+.header__flex {
+  height: 500px !important;
+  background-image: url(../images/header.jpg);
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */
