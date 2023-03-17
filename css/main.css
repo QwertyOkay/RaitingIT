@@ -2414,7 +2414,22 @@ body {
 }
 
 .paymentsM {
-  width: 77px;
+  width: 50px;
+  height: 10px;
+}
+
+.paymentsRev {
+  width: 45px;
+  height: 10px;
+}
+
+.paymentsVisa {
+  width: 35px;
+  height: 10px;
+}
+
+.paymentsJet {
+  width: 35px;
   height: 10px;
 }
 
