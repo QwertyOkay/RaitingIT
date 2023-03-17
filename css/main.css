@@ -2459,6 +2459,17 @@ body {
   color: #8395a8;
 }
 
+.coociebar {
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  padding: 1.25rem;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
 .header__title {
   z-index: 9;
   font-size: 24px;
