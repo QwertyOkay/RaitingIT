@@ -11,7 +11,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 hr {
   height: 0;
@@ -214,6 +214,7 @@ body {
   height: 60px;
   border-color: #6d8c18;
   border-radius: 20px;
+  font-family: "Poppins";
   // box-shadow: 0 1rem 1.25rem 0 rgb(0 0 0 / 50%), 0 -0.25rem 1.5rem #325d30 inset,
   //   0 0.75rem 0.5rem rgb(114 133 114 / 40%) inset,
   //   0 0.25rem 0.5rem 0 #53f35b inset;
@@ -404,9 +405,7 @@ body {
   }
 }
 .icon__footer-age {
-  width: 44px;
-  height: 44px;
-  margin: 10px auto;
+  margin: 10px auto 15px;
 }
 @media screen and (min-width: 1200px) {
   .icon__footer-age {
@@ -1565,6 +1564,7 @@ body {
 
   text-align: center;
   text-transform: capitalize;
+  font-family: "Poppins";
 
   /* Main / Grey Dark */
 
@@ -1576,6 +1576,7 @@ body {
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
+  font-family: "Poppins";
   /* identical to box height, or 200% */
 
   text-align: center;
@@ -2124,18 +2125,21 @@ body {
 }
 
 .footer {
-  background: #1a0a25;
+  background: #eff5f9;
   padding: 15px 0;
   display: block;
-
-  @media screen and (min-width: 768px) {
-    background: #1a0a25;
-  }
 }
 
 .footer a {
   text-decoration: none;
-  color: #804cb9;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppins";
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #009246;
 }
 
 .text-uppercase {

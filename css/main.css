@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 
 hr {
@@ -239,6 +239,7 @@ body {
   height: 60px;
   border-color: #6d8c18;
   border-radius: 20px;
+  font-family: "Poppins";
   padding: 16px 28px;
   gap: 4px;
   /* position: absolute; */
@@ -421,9 +422,7 @@ body {
   }
 }
 .icon__footer-age {
-  width: 44px;
-  height: 44px;
-  margin: 10px auto;
+  margin: 10px auto 15px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1654,6 +1653,7 @@ body {
   /* identical to box height, or 125% */
   text-align: center;
   text-transform: capitalize;
+  font-family: "Poppins";
   /* Main / Grey Dark */
   color: #2d445c;
 }
@@ -1663,6 +1663,7 @@ body {
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
+  font-family: "Poppins";
   /* identical to box height, or 200% */
   text-align: center;
   letter-spacing: 0.08em;
@@ -2175,19 +2176,20 @@ body {
 }
 
 .footer {
-  background: #1a0a25;
+  background: #eff5f9;
   padding: 15px 0;
   display: block;
-}
-@media screen and (min-width: 768px) {
-  .footer {
-    background: #1a0a25;
-  }
 }
 
 .footer a {
   text-decoration: none;
-  color: #804cb9;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppins";
+  text-align: center;
+  text-transform: uppercase;
+  color: #009246;
 }
 
 .text-uppercase {
@@ -2444,7 +2446,6 @@ body {
 .header__title {
   z-index: 9;
   font-size: 24px;
-  font-family: "Fredoka One";
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
@@ -2462,7 +2463,6 @@ body {
 @media screen and (min-width: 1200px) {
   .header__title {
     font-size: 42px;
-    font-family: "Fredoka One";
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
