@@ -2414,13 +2414,63 @@ body {
   color: #8395a8;
 }
 
-.coociebar {
+.cookiebar {
   width: 100vw;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgb(255, 255, 255);
   position: fixed;
   z-index: 1000;
   bottom: 0;
-  padding: 1.25rem;
-  padding-top: 0;
+  padding: 20px;
   box-sizing: border-box;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cookiebar__priv {
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+
+  color: #009246;
+}
+
+.cookiebar__button {
+  padding: 10px 10px;
+  gap: 4px;
+
+  border: 1px solid #019649;
+  border-radius: 15px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #019548;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  margin: 0px auto;
 }
