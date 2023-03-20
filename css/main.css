@@ -668,14 +668,15 @@ body {
 }
 
 .window {
+  overflow: scroll;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%) scale(1);
   width: 90%;
-  height: auto;
-  padding: 15px;
+  height: 60%;
+  padding: 15px 0px;
   background-color: var(--main-title-color);
   opacity: 1;
   border-radius: 6px;
@@ -1285,13 +1286,14 @@ body {
 }
 
 .window4 {
+  overflow: scroll;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%) scale(1);
   width: 90%;
-  height: auto;
+  height: 60%;
   padding: 15px 0px;
   background-color: var(--main-title-color);
   opacity: 1;
