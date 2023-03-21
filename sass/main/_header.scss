@@ -19,7 +19,7 @@
 }
 @media screen and (min-width: 768px) {
   .header__title {
-    margin-top: 50px;
+    // margin-top: 50px;
     font-size: 35px;
   }
 }
@@ -57,4 +57,10 @@
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media screen and (min-width: 1200px) {
+    height: 420px !important;
+    background-image: url(../images/hero-2x.jpg);
+    background-size: 100%;
+  }
 }
