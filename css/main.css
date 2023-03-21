@@ -679,7 +679,7 @@ body {
   padding: 15px 0px;
   background-color: var(--main-title-color);
   opacity: 1;
-  border-radius: 6px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition-property: opacity, transform;
@@ -708,7 +708,7 @@ body {
   padding: 15px;
   background-color: var(--main-title-color);
   opacity: 1;
-  border-radius: 6px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition-property: opacity, transform;
@@ -737,7 +737,7 @@ body {
   padding: 15px;
   background-color: var(--main-title-color);
   opacity: 1;
-  border-radius: 6px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition-property: opacity, transform;
@@ -766,7 +766,7 @@ body {
   padding: 15px;
   background-color: var(--main-title-color);
   opacity: 1;
-  border-radius: 6px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition-property: opacity, transform;
@@ -795,7 +795,7 @@ body {
   padding: 15px;
   background-color: var(--main-title-color);
   opacity: 1;
-  border-radius: 6px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition-property: opacity, transform;
@@ -824,7 +824,7 @@ body {
   padding: 15px;
   background-color: var(--main-title-color);
   opacity: 1;
-  border-radius: 6px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition-property: opacity, transform;
@@ -1152,24 +1152,24 @@ body {
 }
 
 .window2 {
+  overflow: scroll;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%) scale(1);
   width: 90%;
-  height: auto;
-  padding: 15px;
+  height: 60%;
+  padding: 15px 0px;
   background-color: var(--main-title-color);
   opacity: 1;
-  border-radius: 6px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition-property: opacity, transform;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
 }
-
 @media screen and (min-width: 480px) {
   .window2 {
     width: 354px;
@@ -1180,15 +1180,13 @@ body {
     width: 528px;
   }
 }
+
 .window__close2 {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   text-transform: uppercase;
+  display: block;
   color: brown;
-  margin-top: 11px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
+  margin-top: 20px;
   cursor: pointer;
 }
 
@@ -1213,30 +1211,30 @@ body {
   pointer-events: none;
 }
 
-.window__backcloth3.is-hidden3 > .window3 {
+.window__backcloth3.is-hidden4 > .window3 {
   opacity: 0;
   transform: translate(-50%, -50%) scale(2.9);
 }
 
 .window3 {
+  overflow: scroll;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%) scale(1);
   width: 90%;
-  height: auto;
-  padding: 15px;
+  height: 60%;
+  padding: 15px 0px;
   background-color: var(--main-title-color);
   opacity: 1;
-  border-radius: 6px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition-property: opacity, transform;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
 }
-
 @media screen and (min-width: 480px) {
   .window3 {
     width: 354px;
@@ -1247,15 +1245,13 @@ body {
     width: 528px;
   }
 }
+
 .window__close3 {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   text-transform: uppercase;
+  display: block;
   color: brown;
-  margin-top: 11px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
+  margin-top: 20px;
   cursor: pointer;
 }
 
@@ -1297,14 +1293,13 @@ body {
   padding: 15px 0px;
   background-color: var(--main-title-color);
   opacity: 1;
-  border-radius: 6px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition-property: opacity, transform;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
 }
-
 @media screen and (min-width: 480px) {
   .window4 {
     width: 354px;
@@ -1315,6 +1310,7 @@ body {
     width: 528px;
   }
 }
+
 .window__close4 {
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -1379,7 +1375,7 @@ body {
   padding: 40px;
   background-color: var(--main-title-color);
   opacity: 1;
-  border-radius: 6px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition-property: opacity, transform;
@@ -1422,7 +1418,6 @@ body {
   position: relative;
   display: block;
   text-align: left;
-  margin-bottom: 10px;
   color: #212121;
 }
 
@@ -1430,7 +1425,7 @@ body {
   position: relative;
   display: block;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   color: #212121;
 }
 
@@ -2511,6 +2506,10 @@ body {
   align-items: center;
   width: 170px;
   margin: 0px auto;
+}
+
+.hidden {
+  display: none;
 }
 
 .header__title {
