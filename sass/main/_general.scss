@@ -105,8 +105,8 @@ summary {
   --first-text-color: #757575;
   --second-text-color: rgba(255, 255, 255, 0.6);
   --third-text-color: #000000;
-  --mark-color: #9927b5;
-  --btn-mark-color: #9927b5;
+  --mark-color: #009146;
+  --btn-mark-color: #009146;
   --main-site-section: #2f303a;
   --thumb-background-color: #f5f4fa;
   --line-color: #ececec;
@@ -912,7 +912,7 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: #9927b5;
+  color: var(--mark-color);
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -921,7 +921,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .window__area:focus {
-  border-color: #9927b5;
+  border-color: var(--mark-color);
 }
 .window__area::placeholder {
   color: rgba(170, 169, 169, 0.987);
@@ -1282,7 +1282,7 @@ body {
 }
 .window5 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%) scale(1);
