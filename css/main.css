@@ -1839,9 +1839,11 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .grade__box {
-    width: 1025px;
+    width: 1100px;
     flex-direction: row;
     height: 170px;
+    border-radius: 24px;
+    border: 1px solid #c9dbed;
   }
 }
 .grade {
@@ -1905,13 +1907,11 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .grade__box-1 {
-    border-radius: 44px 0 0 44px;
     height: 170px;
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
   }
 }
 
@@ -2401,6 +2401,11 @@ body {
 
 .widthTape {
   width: 355px;
+}
+@media screen and (min-width: 1200px) {
+  .widthTape {
+    display: none;
+  }
 }
 
 .payments {

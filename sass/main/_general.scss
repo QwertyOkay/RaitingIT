@@ -1750,9 +1750,11 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .grade__box {
-    width: 1025px;
+    width: 1100px;
     flex-direction: row;
     height: 170px;
+    border-radius: 24px;
+    border: 1px solid #c9dbed;
   }
 }
 
@@ -1849,14 +1851,13 @@ body {
   }
 
   @media screen and (min-width: 1200px) {
-    border-radius: 44px 0 0 44px;
+    // border-radius: 44px 0 0 44px;
     height: 170px;
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     // box-shadow: inset -3px 0 0 #804cb9;
-    background-color: #fff;
   }
 }
 .grade__stars-box {
@@ -2363,6 +2364,9 @@ body {
 
 .widthTape {
   width: 355px;
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .payments {
