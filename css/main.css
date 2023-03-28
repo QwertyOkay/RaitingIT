@@ -218,7 +218,7 @@ body {
   }
 }
 .section {
-  padding: 60px 0;
+  padding: 35px 0 0px;
 }
 
 .section.main {
@@ -1784,7 +1784,6 @@ body {
     border-radius: 50px;
     max-width: 1199px;
     height: 205px;
-    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     -webkit-box-shadow: 0px 0px 10px 3px #f9f9f9;
@@ -1795,7 +1794,6 @@ body {
 @media screen and (min-width: 768px) {
   .grade__box {
     width: 768px;
-    margin-bottom: 75px;
     flex-direction: row;
   }
 }
@@ -1809,6 +1807,10 @@ body {
     justify-content: flex-start;
   }
 }
+.grade__list:last-child {
+  margin-bottom: 0px;
+}
+
 .grade {
   background-repeat: repeat;
   background-size: cover;
@@ -2440,6 +2442,15 @@ body {
   flex-direction: column;
   gap: 15px;
 }
+@media screen and (min-width: 1200px) {
+  .cookiebar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 150px;
+  }
+}
 
 .cookiebar__priv {
   text-decoration: underline;
@@ -2472,6 +2483,13 @@ body {
   align-items: center;
   width: 170px;
   margin: 0px auto;
+}
+@media screen and (min-width: 1200px) {
+  .cookiebar__button {
+    width: 142px;
+    height: 39px;
+    padding: 16px 28px;
+  }
 }
 
 .hidden {
@@ -2650,8 +2668,41 @@ body {
   }
 }
 
+.desk46Stars {
+  display: none;
+}
+@media only screen and (min-width: 1200px) {
+  .desk46Stars {
+    display: block;
+    width: 220px;
+    height: 120px;
+    right: 233px;
+    top: 25px;
+    position: absolute;
+  }
+}
+
 .hidden {
   display: none;
+}
+
+.deskFooter-revert {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1200px) {
+  .deskFooter-revert {
+    flex-direction: column-reverse;
+    margin-top: 10px;
+  }
+}
+
+.modalAbs {
+  margin: 0px auto;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 110%;
 }
 
 .header__title {
@@ -2698,7 +2749,6 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .header__flex {
-    height: 420px !important;
     background-image: url(../images/hero-2x.jpg);
     background-size: 100%;
   }
